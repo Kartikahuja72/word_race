@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+}
+
+h1 {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 20px auto;
+    box-shadow: 0px 0px 2px 2px lightgray;
+    background-color: #b0b8b9;
+}
+
+#choose-lobby {
+    border-radius: 10px;
+    width: min(70vw, 500px);
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    border: 2px solid gray;
+    box-shadow: 0 0 1px 2px rgb(130, 130, 130);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 20px;
+    width: min(95vw, 1500px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+#statsContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: #ededed;
+    background-color: #394344;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 1px rgb(34, 60, 37);
+    backdrop-filter: blur(50px);
+}
+
+#single{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    color: #ededed;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 1px rgb(34, 60, 37);
+    backdrop-filter: blur(50px);
+}
+
+button{
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 1px rgb(34, 60, 37);
+    backdrop-filter: blur(50px);
+}
